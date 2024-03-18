@@ -1,0 +1,101 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Tête de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pour espacer les éléments */
+    padding: 10px; /* Ajouter un peu d'espace autour des éléments */
+}
+
+header.header img {
+    width: 240px;
+}
+
+section.top-page {
+    background: url('../images/bg1.jpeg');
+    background-size: cover;
+    height: 40vh;
+    padding: 25px;
+}
+
+
+/* Page de bienvenue */
+
+.landing-page {
+    padding: 20px 30px;
+}
+
+
+.big-title{
+    color:white;
+    font-size: 40px;
+    font-family: 'Abril FatFace', cursive;
+    margin-bottom: 20px; /* Ajouter une marge en bas */   
+}
+
+.scroll-down {
+    color: aliceblue;
+    font-size: 20px; /* Ajoutez la taille de la police ici */
+    text-decoration: none;
+    position: absolute;
+    margin-bottom: 400px; /* Cette marge semble élevée, vous devriez la vérifier */  
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    align-items: center; /* Aligner verticalement les éléments de la liste */
+}
+
+nav.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utiliser Flexbox pour les éléments de liste */
+}
+
+nav.nav li {
+    color: white;
+    margin-right: 100px; /* Espacement entre les éléments de la liste */
+    font-size: 30px;
+}
+
+/* Service */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrer les éléments sur la ligne */
+    padding: 20px; /* Ajouter de l'espace autour des éléments */
+}
+
+.services > div {
+    flex: 1 0 30%; /* Définir la largeur de chaque élément */
+    margin: 10px; /* Ajouter de l'espace entre les éléments */
+}
+
+
+.services > div img {
+    max-width: 50%; /* Réduire la taille de l'image à 50% */
+    display: block; /* Assurer que les images ne débordent pas de leurs conteneurs */
+    margin: auto; /* Centrer les images */
+    margin-bottom: 10px; /* Ajouter un peu d'espace en bas de l'image */
+}
+
+.services > div p {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px; /* Ajouter un peu d'espace à gauche du texte */
+}
+
