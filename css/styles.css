@@ -94,8 +94,7 @@ nav.nav li a {
 }
 .services > div p:last-child {
     margin-bottom: 5px; /* Réduire la marge entre le texte et le titre */
-}    
-
+}
 /* L'essentiel de la page */
 .section-title {
     font-size: 50px;
@@ -131,16 +130,16 @@ nav.nav li a {
     flex: 1;
 }
 .info1 {
-    background-image: url(../images/nos_meilleures_ventes/1.jpg);  
+    background-image: url(../images/illustrations_best_infos/CV.jpg);  
 }
 .info2 {
-    background-image: url(../images/nos_meilleures_ventes/2.jpg);  
+    background-image: url(../images/illustrations_best_infos/programmeur.jpg);  
 }
 .info3 {
-    background-image: url(../images/nos_meilleures_ventes/3.jpg);  
+    background-image: url(../images/illustrations_best_infos/blog.jpg);  
 }
 .info4 {
-    background-image: url(../images/nos_meilleures_ventes/4.jpg);  
+    background-image: url(../images/illustrations_best_infos/GitHub.jpg);  
 }
 .infos-details {
     position: absolute;
@@ -177,30 +176,30 @@ nav.nav li a {
     display: block; /* Assurer que les liens occupent toute la place disponible dans la grille */
 }
 .blog-grid1 {
-    background-image: url(../images/nos_plantes/1.jpg);
+    background-image: url(../images/blog/1.jpg);
     grid-column: 1/3;
     grid-row: 1/3;
 }
 .blog-grid2 {
-    background-image: url(../images/nos_plantes/2.jpg);
+    background-image: url(../images/blog/2.jpg);
     grid-column: 3/5;
 }
 .blog-grid3 {
-    background-image: url(../images/logorocket.png);
+    background-image: url(../images/blog/3.jpg);
     grid-column: 3/5;
 }
 .blog-grid4 {
-    background-image: url(../images/nos_plantes/4.jpg);
+    background-image: url(../images/blog/4.jpg);
     grid-column: 1;
     grid-row: 3/5;
 }
 .blog-grid5 {
-    background-image: url(../images/nos_plantes/5.jpg);
+    background-image: url(../images/blog/5.jpg);
     grid-column: 2/4;
     grid-row: 3/5;
 }
 .blog-grid6 {
-    background-image: url(../images/nos_plantes/6.jpg);
+    background-image: url(../images/blog/6.jpg);
     grid-column: 4;
     grid-row: 3/5;
 }
