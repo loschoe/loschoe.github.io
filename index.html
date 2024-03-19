@@ -6,27 +6,26 @@
     <title>Mon premier site web</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-
 </head>
 <body>
     <section class="top-page">
         <header class="header">
-            <img src="images/logorocket.png" alt="Logo du site">
-            <nav class ="nav">
+            <img src="images/logorocketo.png" alt="Logo du site">
+            <nav class="nav">
                 <ul>
-                    <li>Accueil</li>
-                    <li>Présentation</li>
-                    <li>Publications</li>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#all-blog">Présentation</a></li>
+                    <li><a href="#all-blog">Publications</a></li>
                 </ul>
             </nav>
         </header>
         <div class="landing-page">
             <h1 class="big-title">Découvrez mon nouveau site web. C'est génial !</h1>
-            <a class="scroll-down">Scroll <i class="fas fa-angle-down"></i></a>
+            <a class="scroll-down" href="#services">Scroll <i class="fas fa-angle-down"></i></a>
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <div>
             <img src="https://cdn-icons-png.flaticon.com/128/4479/4479819.png" alt="image représentant un réseau social">
             <p>
@@ -58,5 +57,53 @@
             </p>
         </div>
     </section>
+
+    <section class="essentiel" id="essentiel">
+        <h2 class="section-title">
+            L'essentiel de la page web :
+        </h2>
+        <div class="best-infos">
+            <a class="infos-box info1">
+                <div class="infos-details">
+                    <p class="info-name">Publication</p>
+                    <p class="info-date">Date : </p>  
+                </div>
+            </a>
+            <a class="infos-box info2">
+                <div class="infos-details">
+                    <p class="info-name">Publication</p>
+                    <p class="info-date">Date : </p>  
+                </div>
+            </a>
+            <a class="infos-box info3">
+                <div class="infos-details">
+                    <p class="info-name">Publication</p>
+                    <p class="info-date">Date : </p>  
+                </div>
+            </a>
+            <a class="infos-box info4">
+                <div class="infos-details">
+                    <p class="info-name">Publication</p>
+                    <p class="info-date">Date : </p>  
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="all-blog" id="all-blog">
+        <h2 class="section-title">Mon Blog :</h2>
+        <div class="blog-grid">
+            <a class="blog-grid1 plant-box"></a>
+            <a class="blog-grid2 plant-box"></a>
+            <a class="blog-grid3 plant-box"></a>
+            <a class="blog-grid4 plant-box"></a>
+            <a class="blog-grid5 plant-box"></a>
+            <a class="blog-grid6 plant-box"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyrith">&copy; 2020 - LS Rocket Website</p>       
+    </footer>
 </body>
 </html>

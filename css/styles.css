@@ -1,7 +1,12 @@
 @import url(https://fonts.google.com/specimen/Montserrat?query=monts);
 @import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+
 * {
     font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -9,18 +14,15 @@ body {
 }
 
 /* Tête de page */
-
 header.header {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Pour espacer les éléments */
     padding: 10px; /* Ajouter un peu d'espace autour des éléments */
 }
-
 header.header img {
     width: 240px;
 }
-
 section.top-page {
     background: url('../images/bg1.jpeg');
     background-size: cover;
@@ -28,74 +30,202 @@ section.top-page {
     padding: 25px;
 }
 
-
 /* Page de bienvenue */
-
 .landing-page {
     padding: 20px 30px;
 }
-
-
-.big-title{
-    color:white;
+.big-title {
+    color: white;
     font-size: 40px;
     font-family: 'Abril FatFace', cursive;
-    margin-bottom: 20px; /* Ajouter une marge en bas */   
+    margin-bottom: 20px; /* Ajouter une marge en bas */
 }
-
 .scroll-down {
-    color: aliceblue;
+    color:  #ff8000;
     font-size: 20px; /* Ajoutez la taille de la police ici */
     text-decoration: none;
     position: absolute;
-    margin-bottom: 400px; /* Cette marge semble élevée, vous devriez la vérifier */  
 }
 
 /* menu de navigation */
-
 nav.nav {
     display: flex;
     align-items: center; /* Aligner verticalement les éléments de la liste */
 }
-
 nav.nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex; /* Utiliser Flexbox pour les éléments de liste */
 }
-
-nav.nav li {
+nav.nav li a {
     color: white;
     margin-right: 100px; /* Espacement entre les éléments de la liste */
     font-size: 30px;
 }
 
 /* Service */
-
 .services {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centrer les éléments sur la ligne */
     padding: 20px; /* Ajouter de l'espace autour des éléments */
 }
-
 .services > div {
     flex: 1 0 30%; /* Définir la largeur de chaque élément */
     margin: 10px; /* Ajouter de l'espace entre les éléments */
 }
-
-
 .services > div img {
     max-width: 50%; /* Réduire la taille de l'image à 50% */
     display: block; /* Assurer que les images ne débordent pas de leurs conteneurs */
     margin: auto; /* Centrer les images */
     margin-bottom: 10px; /* Ajouter un peu d'espace en bas de l'image */
 }
-
 .services > div p {
     display: inline-block;
     vertical-align: top;
     margin-left: 10px; /* Ajouter un peu d'espace à gauche du texte */
 }
+.services > div p {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px; /* Ajouter un peu d'espace à gauche du texte */
+    font-size: 18px; /* Augmenter la taille de la police */
+}
+.services > div p:last-child {
+    margin-bottom: 5px; /* Réduire la marge entre le texte et le titre */
+}    
 
+/* L'essentiel de la page */
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+    margin-left: 30px; /* Ajouté une marge à gauche */
+    line-height: 1; /* Ajusté la hauteur de ligne */
+}
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ff8000;
+    width: 600px; /* Modifié la largeur */
+    height: 7px;
+    bottom: -10px;
+    vertical-align: top;
+}
+.best-infos {
+    margin: 60px;
+}
+.best-infos {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.infos-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.info1 {
+    background-image: url(../images/nos_meilleures_ventes/1.jpg);  
+}
+.info2 {
+    background-image: url(../images/nos_meilleures_ventes/2.jpg);  
+}
+.info3 {
+    background-image: url(../images/nos_meilleures_ventes/3.jpg);  
+}
+.info4 {
+    background-image: url(../images/nos_meilleures_ventes/4.jpg);  
+}
+.infos-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: aliceblue;
+    padding: 5px 20px; /* Modifié la virgule en espace */
+}
+.info-name {
+    font-size: 22px;
+    font-weight: 600; /* Modifié la valeur */
+    margin-left: 10px;
+    line-height: 30px; /* Modifié la hauteur de ligne */
+}
+.info-date {
+    color: burlywood;
+    line-height: 30px; /* Modifié la hauteur de ligne */
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+/* Blog */
+.all-blog {
+    margin: 100px;    
+}
+.blog-grid {
+    display:grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px);
+    gap: 5px;
+}
+.blog-grid a {
+    display: block; /* Assurer que les liens occupent toute la place disponible dans la grille */
+}
+.blog-grid1 {
+    background-image: url(../images/nos_plantes/1.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.blog-grid2 {
+    background-image: url(../images/nos_plantes/2.jpg);
+    grid-column: 3/5;
+}
+.blog-grid3 {
+    background-image: url(../images/logorocket.png);
+    grid-column: 3/5;
+}
+.blog-grid4 {
+    background-image: url(../images/nos_plantes/4.jpg);
+    grid-column: 1;
+    grid-row: 3/5;
+}
+.blog-grid5 {
+    background-image: url(../images/nos_plantes/5.jpg);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+.blog-grid6 {
+    background-image: url(../images/nos_plantes/6.jpg);
+    grid-column: 4;
+    grid-row: 3/5;
+}
+.blog-grid1, .blog-grid2, .blog-grid3, .blog-grid4, .blog-grid5, .blog-grid6 {
+    background-position: center;
+}
+.blog-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; /* Centrer le texte horizontalement */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Ajouter un fond semi-transparent */
+}
+.info-name,
+.info-date {
+    margin: 5px 0; /* Ajouter de l'espace entre les éléments */
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
