@@ -9,6 +9,7 @@ Ceci est mon premier site web, créé dans le cadre de mon apprentissage du dév
 Vous pouvez biensûr vous inspirez afin de créer votre propre site web ! 
 
 ## Languages informatique utilisés : 
+###### J'ai d'abord appris à utliser google site
 ###### HTML
 ###### CSS
 
