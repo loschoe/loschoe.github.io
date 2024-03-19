@@ -12,6 +12,9 @@ Vous pouvez biensûr vous inspirez afin de créer votre propre site web !
 ###### HTML
 ###### CSS
 
+## Temps passé sur le projet : 
+###### 6h
+
 ## Comment l'utiliser ? 
 Clonez ce dépôt sur votre machine locale.
 Ouvrez le fichier index.html dans votre navigateur web préféré.
