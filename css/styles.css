@@ -32,19 +32,20 @@ section.top-page {
 
 /* Page de bienvenue */
 .landing-page {
-    padding: 20px 30px;
+    padding: 0px 30px;
 }
 .big-title {
     color: white;
     font-size: 40px;
     font-family: 'Abril FatFace', cursive;
-    margin-bottom: 20px; /* Ajouter une marge en bas */
+    margin:0px;
 }
 .scroll-down {
     color:  #ff8000;
     font-size: 20px; /* Ajoutez la taille de la police ici */
     text-decoration: none;
     position: absolute;
+    margin-top: 10px;
 }
 
 /* menu de navigation */
