@@ -1,5 +1,30 @@
-.times {
-    font-family: 'Georgia';
-    font-size: 25px;
+body{
     margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family:Impact;
+    color: red;
+}
+
+p.introduction{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+}
+
+p.article{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+p.conclusion{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 10px;
 }
