@@ -40,6 +40,7 @@ section.top-page {
     font-family: 'Abril FatFace', cursive;
     margin:0px;
 }
+
 .scroll-down {
     color:  #ff8000;
     font-size: 20px; /* Ajoutez la taille de la police ici */
@@ -206,6 +207,7 @@ nav.nav li a {
 }
 .blog-grid1, .blog-grid2, .blog-grid3, .blog-grid4, .blog-grid5, .blog-grid6 {
     background-position: center;
+
 }
 .blog-details {
     position: absolute;
