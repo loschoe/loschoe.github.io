@@ -73,6 +73,7 @@ nav.nav li a {
     justify-content: center; /* Centrer les éléments sur la ligne */
     padding: 20px; /* Ajouter de l'espace autour des éléments */
 }
+
 .services > div {
     flex: 1 0 30%; /* Définir la largeur de chaque élément */
     margin: 10px; /* Ajouter de l'espace entre les éléments */
