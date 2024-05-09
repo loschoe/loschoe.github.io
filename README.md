@@ -14,7 +14,7 @@ Vous pouvez biensûr vous inspirez afin de créer votre propre site web !
 ###### CSS
 
 ## Temps passé sur le projet : 
-###### 6h
+###### 10h
 
 ## Comment l'utiliser ? 
 Clonez ce dépôt sur votre machine locale.
