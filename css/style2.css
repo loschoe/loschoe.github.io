@@ -1,9 +1,3 @@
-body{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 50%;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -15,49 +9,51 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
+    margin-left: 20px; /* Utilisation de pixels pour la marge gauche */
+    margin-right: 20px; /* Utilisation de pixels pour la marge droite */
+    margin-bottom: 50px; /* Utilisation de pixels pour la marge basse */
 }
 
-/* Style pour la section CV */
+/* Style pour la section article */
 .article {
     background-color: #fff;
-    padding: 1.25em;
-    margin: 1.25em;
+    padding: 20px; /* Utilisation de pixels pour le rembourrage */
+    margin: 20px; /* Utilisation de pixels pour la marge */
 }
 
 h1 {
-    margin-bottom: 1.875em;
-    font-family:Impact;
+    margin-bottom: 30px; /* Utilisation de pixels pour la marge basse */
+    font-family: Impact;
     color: red;
 }
 
-p.introduction{
-    font-size: 1.375em;
-    font-family:'Times New Roman', Times, serif;
+p.introduction {
+    font-size: 22px; /* Utilisation de pixels pour la taille de police */
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: justify;
 }
 
-p.article{
-    font-size: 1.563em;
-    font-family:'Segoe UI';
+p.article {
+    font-size: 25px; /* Utilisation de pixels pour la taille de police */
+    font-family: 'Segoe UI';
 }
 
-p.conclusion{
-    font-size: 1.375em;
+p.conclusion {
+    font-size: 22px; /* Utilisation de pixels pour la taille de police */
     font-family: 'Times New Roman', serif;
     font-style: italic;
     text-align: justify;
-    margin-top: 3%;
-    margin-bottom: 10%;
+    margin-top: 30px; /* Utilisation de pixels pour la marge haute */
+    margin-bottom: 100px; /* Utilisation de pixels pour la marge basse */
 }
 
-h1.big-title{
+h1.big-title {
     color: red;
-    margin-top: 2%;
+    margin-top: 20px; /* Utilisation de pixels pour la marge haute */
 }
-
 
 img {
     max-width: 80%;
     height: auto;
-  }
+}
