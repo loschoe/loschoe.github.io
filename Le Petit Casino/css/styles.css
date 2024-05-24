@@ -1,0 +1,159 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color: #f4f4f4;
+}
+
+/*Définition de la grille*/
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "footer footer";
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    grid-area: header;
+    display: flex; /* Utilisation de Flexbox pour aligner les éléments */
+    align-items: center;
+    justify-content: space-between; /* Espacer les éléments */
+    padding: 0.5%;
+    background-color: #F0C300;
+}
+
+.big-title {
+    font-size: 70px;
+    margin-left: 15%;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Impact';
+}
+
+.logo {
+    width: 10%; /* Taille de la colonne pour le logo */
+    margin-right: 5%;
+}
+
+.logo:hover {
+    transform: scaleX(-1);
+    transition: 100ms;
+}
+
+.illu {
+    margin-top: 1%;
+    width: 70%;
+    filter: brightness(60%);
+    border-radius: 5%;
+}
+
+/* Menu */
+.menu {
+    grid-area: menu;
+    padding: 2%;
+    border-right: 1px solid #ddd;
+}
+
+a.menu {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 4%;
+    margin-left: 10%;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul {
+    list-style: circle;
+    padding-left: 20%; 
+}
+
+.menu li {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Rubrique principale */
+.content {
+    grid-area: content;
+    background-color: #fff;
+    padding: 2.5%;
+    margin: 1.67%;
+    border-radius: 0.83%;
+    box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1);
+}
+
+/* Textes */
+h1, h2 {
+    color: #333;
+}
+
+.big-title {
+    text-decoration-color: red;
+    text-align: center;
+    color: #333;
+    margin-left: 30%;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Segoe UI';
+    margin-top: 1.67%;
+}
+
+h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+h3 {
+    font-size: 30px;
+    color : green;
+}
+
+p {
+    font-size: 27px;
+    font-family: Georgia;
+}
+li {
+    font-size: 27px;
+    font-family: Georgia;
+}
+
+p.rouge {
+    font-size: 27px;
+    font-family: Georgia;
+    color: red;    
+}
+
+button:hover.stars {
+    display: block;
+    filter: drop-shadow(0 0 10px
+    #ffdeff);
+}
+
+/* Footer */
+.footer {
+    grid-area: footer;
+    display: flex; /* Utilisation de Flexbox pour aligner les éléments */
+    align-items: center;
+    justify-content: space-between; /* Espacer les éléments */
+    padding: 0.5%;
+    background-color: #F0C300;
+}
+
+.litle-title {
+    color: #333;
+    font-size: 20px;
+}
+.lien {
+    color: red;
+}
