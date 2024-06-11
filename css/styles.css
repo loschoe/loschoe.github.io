@@ -24,7 +24,7 @@ header.header img {
     width: 240px;
 }
 section.top-page {
-    background: url('../images/bg1.jpeg');
+    background: url('../images/background.jpeg');
     background-size: cover;
     height: 40vh;
     padding: 25px;
@@ -62,7 +62,7 @@ nav.nav ul {
 }
 nav.nav li a {
     color: white;
-    margin-right: 100px; /* Espacement entre les éléments de la liste */
+    margin-right: 70px; /* Espacement entre les éléments de la liste */
     font-size: 30px;
 }
 
@@ -74,8 +74,59 @@ nav.nav li a {
     padding: 20px; /* Ajouter de l'espace autour des éléments */
 }
 
+.card {
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB); 
+    padding: 10px; /* Padding initial de la carte */
+    padding-bottom: 0%;
+    border-radius: 15px; /* Coins légèrement arrondis */
+    background-color: #4D5F87; /* Fond pour contraster */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease; /* Transitions pour l'animation */
+    position: relative;
+    overflow: hidden; /* Pour cacher le contenu dépassant de la carte */
+}
+
+.card img {
+    width: 100%; /* Pour s'assurer que l'image s'adapte à la largeur de la carte */
+    height: auto; /* Pour conserver les proportions de l'image */
+    display: block; /* Pour corriger un problème d'espace réservé autour de l'image */
+}
+
+.card-content {
+    padding-bottom: 10px; /* Padding initial pour le contenu des réseaux sociaux */
+    transition: padding 0.3s ease; /* Transition pour l'animation */
+}
+
+/* Effet de survol */
+.card:hover .card-content {
+    padding-bottom: 20px; /* Réduit le padding en bas au survol */
+}
+
+.card-info {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100%);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .card-info {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+strong {
+    text-align: center;
+}
+
 .services > div {
-    flex: 1 0 30%; /* Définir la largeur de chaque élément */
+    flex: 0 0 calc(30% - 20px); /* Réduire la taille de 10% et soustraire l'espace entre les éléments */
     margin: 10px; /* Ajouter de l'espace entre les éléments */
 }
 .services > div img {
