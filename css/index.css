@@ -67,11 +67,11 @@ nav.nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Utiliser Flexbox pour les éléments de liste */
+    display: flex; 
 }
 nav.nav li a {
     color: white;
-    margin-right: 70px; /* Espacement entre les éléments de la liste */
+    margin-right: 70px; 
     font-size: 30px;
 }
 
@@ -79,8 +79,8 @@ nav.nav li a {
 .services {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centrer les éléments sur la ligne */
-    padding: 20px; /* Ajouter de l'espace autour des éléments */
+    justify-content: center; 
+    padding: 20px;
 }
 
 /*Les 3 cartes :*/
@@ -271,9 +271,9 @@ strong {
     bottom: 0;
     left: 0;
     width: 100%;
-    text-align: center; /* Centrer le texte horizontalement */
+    text-align: center;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Ajouter un fond semi-transparent */
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .info-name,
 .info-date {
@@ -288,6 +288,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
-    margin-top: auto; /* Pousser le footer vers le bas de la page */
+    margin-top: auto;
 }
 
