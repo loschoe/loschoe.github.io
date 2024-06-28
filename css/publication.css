@@ -28,19 +28,19 @@ h1 {
 }
 
 p.introduction {
-    font-size: 22px; /* Utilisation de pixels pour la taille de police */
+    font-size: 25px; 
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: justify;
 }
 
 p.article {
-    font-size: 25px; /* Utilisation de pixels pour la taille de police */
+    font-size: 140%; 
     font-family: 'Segoe UI';
 }
 
 p.conclusion {
-    font-size: 22px; /* Utilisation de pixels pour la taille de police */
+    font-size: 22px; 
     font-family: 'Times New Roman', serif;
     font-style: italic;
     text-align: justify;

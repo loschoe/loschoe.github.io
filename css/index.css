@@ -115,12 +115,6 @@ nav.nav li a {
     transform: translateY(0);
 }
 
-
-
-
-
-
-
 strong {
     text-align: center;
 }
@@ -220,10 +214,10 @@ strong {
     margin: 100px;    
 }
 .blog-grid {
-    display:grid;
+    display: grid;
     min-height: 150vh;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 400px);
+    grid-template-columns: 300px 300px 300px 300px; /* Colonnes avec des largeurs fixes */
+    grid-template-rows: 400px 400px 400px 400px; /* Lignes avec des hauteurs fixes */
     gap: 5px;
 }
 .blog-grid a {
@@ -231,36 +225,37 @@ strong {
 }
 .blog-grid1 {
     background-image: url(../images/blog/1.jpg);
-    grid-column: 1/3;
-    grid-row: 1/3;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
 }
 .blog-grid2 {
     background-image: url(../images/blog/2.jpg);
-    grid-column: 3/5;
+    grid-column: 3 / 5;
 }
 .blog-grid3 {
     background-image: url(../images/blog/3.jpg);
-    grid-column: 3/5;
+    grid-column: 3 / 5;
 }
 .blog-grid4 {
     background-image: url(../images/blog/4.jpg);
     grid-column: 1;
-    grid-row: 3/5;
+    grid-row: 3 / 5;
 }
 .blog-grid5 {
     background-image: url(../images/blog/5.jpg);
-    grid-column: 2/4;
-    grid-row: 3/5;
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
 }
 .blog-grid6 {
     background-image: url(../images/blog/6.jpg);
     grid-column: 4;
-    grid-row: 3/5;
+    grid-row: 3 / 5;
 }
 .blog-grid1, .blog-grid2, .blog-grid3, .blog-grid4, .blog-grid5, .blog-grid6 {
     background-position: center;
-
+    background-size: cover; /* Assurer que l'image couvre tout l'élément sans se déformer */
 }
+
 .blog-details {
     position: absolute;
     bottom: 0;

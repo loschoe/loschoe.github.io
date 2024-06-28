@@ -37,25 +37,29 @@ section.game {
 section.game h2 {
     margin-top: 0;
     color: red;
+    font-size: 2em;
 }
 
 .com {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: 1em;
     margin: 10%;
+    
 }
 
 p {
     margin-right: 4%;
+    font-size: 1,5em;
 }
 section.game img {
-    max-width: 100%;
-    width: 90%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 7px 11px 30px 10px rgba(57,57,57,0.83);
-}
+    width: 100%; /* Utilisation de la largeur à 100% pour remplir le conteneur */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    max-width: 561px; /* Limitation de la largeur maximale au conteneur parent */
+    max-height: 315px; /* Hauteur maximale pour éviter des images trop grandes */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 7px 11px 30px 10px rgba(57, 57, 57, 0.83); /* Ombre portée */
 }
 
 footer {
