@@ -34,6 +34,7 @@ p.introduction {
 p.article {
     font-size: 140%; 
     font-family: 'Segoe UI';
+    margin-right: 8%;
 }
 p.conclusion {
     font-size: 22px; 
@@ -46,9 +47,10 @@ p.conclusion {
 h1.big-title {
     color: #f0C300;
     margin-top: 20px;
+    margin-left: 2%;
 }
 img {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
 }
 img.article {

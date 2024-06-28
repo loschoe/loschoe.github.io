@@ -16,7 +16,9 @@ body {
         "header header"
         "menu content"
         "footer footer";
-    height: 100vh;
+    min-height: 100vh; /* Assure que la grille occupe au moins la hauteur de la fenêtre */
+    margin: 0; 
+    padding: 0; 
 }
 
 /* Header */
@@ -30,7 +32,7 @@ body {
 }
 
 .big-title {
-    font-size: clamp(100%, 5vw, 312.5%); /* 50px avec des valeurs min et max */
+    font-size: clamp(2rem, 5vw, 5rem); /* Ajustement de la taille de police avec des valeurs min et max */
     margin-left: 15%;
     text-align: center;
     text-decoration: underline;
@@ -40,7 +42,7 @@ body {
 .logo {
     width: 10%;
     margin-right: 5%;
-    max-width: 80px; /* Taille maximale pour le logo (réduite de 20px) */
+    max-width: 80px; /* Taille maximale pour le logo */
 }
 
 .logo:hover {
@@ -55,9 +57,9 @@ body {
     border-right: 1px solid #ddd;
 }
 
-a.menu {
+.menu a {
     text-align: center;
-    font-size: clamp(150%, 2vw, 125%); /* 20px avec des valeurs min et max */
+    font-size: clamp(1.5rem, 2vw, 2.5rem); /* Ajustement de la taille de police avec des valeurs min et max */
     margin-top: 4%;
     margin-left: 10%;
     text-decoration: none;
@@ -70,76 +72,57 @@ a.menu {
 }
 
 .menu li {
-    font-size: clamp(100%, 1.5vw, 62.5%); /* 10px avec des valeurs min et max */
+    font-size: clamp(1rem, 1.5vw, 1.5rem); /* Ajustement de la taille de police avec des valeurs min et max */
     margin-bottom: 10px;
 }
 
-/* Rubrique principale */
+/* Contenu */
 .content {
     grid-area: content;
     background-color: #fff;
     padding: 2.5%;
     margin: 1.67%;
-    border-radius: 0.83%;
-    box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1);
+    border-radius: 5px; /* Ajustement du rayon de bordure */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Légère ombre portée */
 }
 
 /* Images dans le contenu principal */
 .content img {
-    max-width: 100%; /* L'image ne dépassera pas la largeur de son conteneur */
-    height: auto; /* Maintient l'aspect ratio de l'image */
+    max-width: 100%;
+    height: auto;
     display: block;
-    margin: 0 auto; /* Centre l'image */
+    margin: 0 auto;
 }
 
-/* Textes */
-h1, h2 {
+/* Styles de texte */
+h1, h2, h3, p, li {
     color: #333;
-}
-
-.big-title {
-    text-decoration-color: red;
-    text-align: center;
-    color: #333;
-    margin-left: 30%;
 }
 
 h1 {
-    font-size: clamp(150%, 3vw, 250%); /* 40px avec des valeurs min et max */
+    font-size: clamp(2.5rem, 3vw, 4rem); /* Ajustement de la taille de police avec des valeurs min et max */
     font-family: 'Segoe UI';
     margin-top: 1.67%;
 }
 
 h2 {
-    font-size: clamp(125%, 2.5vw, 187.5%); /* 30px avec des valeurs min et max */
+    font-size: clamp(2rem, 2.5vw, 3rem); /* Ajustement de la taille de police avec des valeurs min et max */
     text-decoration: underline;
     text-decoration-color: green;
 }
 
 h3 {
-    font-size: clamp(100%, 2vw, 62.5%); /* 10px avec des valeurs min et max */
+    font-size: clamp(1.5rem, 2vw, 1.5rem); /* Ajustement de la taille de police avec des valeurs min et max */
     color: green;
 }
 
-p {
-    font-size: clamp(100%, 1.7vw, 43.75%); /* 7px avec des valeurs min et max */
-    font-family: Georgia;
-}
-
-li {
-    font-size: clamp(100%, 1.7vw, 43.75%); /* 7px avec des valeurs min et max */
+p, li {
+    font-size: clamp(1rem, 1.7vw, 1.5rem); /* Ajustement de la taille de police avec des valeurs min et max */
     font-family: Georgia;
 }
 
 p.rouge {
-    font-size: clamp(100%, 1.7vw, 43.75%); /* 7px avec des valeurs min et max */
-    font-family: Georgia;
     color: red;    
-}
-
-button:hover.stars {
-    display: block;
-    filter: drop-shadow(0 0 10px #ffdeff);
 }
 
 /* Footer */
@@ -163,7 +146,7 @@ button:hover.stars {
 
 .litle-title {
     color: #333;
-    font-size: clamp(100%, 1vw, 0%); /* 0px avec des valeurs min et max */
+    font-size: clamp(1rem, 1vw, 1rem); /* Ajustement de la taille de police avec des valeurs min et max */
 }
 
 .lien {
