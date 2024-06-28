@@ -4,66 +4,58 @@
     box-sizing: border-box;
 }
 
-/* Style de base pour le corps */
+/*Style de base pour le corps :*/
 body {
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
-    margin-left: 20px; /* Utilisation de pixels pour la marge gauche */
-    margin-right: 20px; /* Utilisation de pixels pour la marge droite */
-    margin-bottom: 50px; /* Utilisation de pixels pour la marge basse */
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 50px; 
 }
 
-/* Style pour la section article */
+/*Style pour la section article :*/
 .article {
     background-color: #fff;
-    padding: 20px; /* Utilisation de pixels pour le rembourrage */
-    margin: 20px; /* Utilisation de pixels pour la marge */
+    padding: 20px;
+    margin: 20px;
 }
-
 h1 {
-    margin-bottom: 30px; /* Utilisation de pixels pour la marge basse */
+    margin-bottom: 30px; 
     font-family: Impact;
     color: red;
 }
-
 p.introduction {
     font-size: 25px; 
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: justify;
 }
-
 p.article {
     font-size: 140%; 
     font-family: 'Segoe UI';
 }
-
 p.conclusion {
     font-size: 22px; 
     font-family: 'Times New Roman', serif;
     font-style: italic;
     text-align: justify;
-    margin-top: 30px; /* Utilisation de pixels pour la marge haute */
-    margin-bottom: 100px; /* Utilisation de pixels pour la marge basse */
+    margin-top: 30px; 
+    margin-bottom: 100px;
 }
-
 h1.big-title {
     color: #f0C300;
-    margin-top: 20px; /* Utilisation de pixels pour la marge haute */
+    margin-top: 20px;
 }
-
 img {
     max-width: 80%;
     height: auto;
 }
-
 img.article {
     width: 70%;
     margin-top: 2%;
     margin-bottom: 4%;
 }
-
 .end {
     padding-bottom: 5%;
 }

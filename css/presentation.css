@@ -1,63 +1,53 @@
-/* Initialisation des marges et du rembourrage */
+/*Initialisation des marges et du rembourrage*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Style de base pour le corps */
+/*Styles du corps :*/
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;  
     color: #333;
-    font-size: 16px; /* Taille de police de base */
+    font-size: 16px;
 }
-
 .souligné {
     text-decoration: underline;
 }
-
-/* Style pour le titre principal */
 .big-title1 {
-    font-size: 3em; /* Converti en em */
-    margin-bottom: 1.25em; /* Converti en em */
+    font-size: 3em; 
+    margin-bottom: 1.25em; 
     text-align: center;
 }
-
-/* Style pour le lien de défilement */
 .scroll-down {
     color: #fff;
     text-decoration: none;
 }
 
-/* Style pour la section CV */
+/*Style pour la section CV :*/
 .cv {
     background-color: #fff;
-    padding: 1.25em; /* Converti en em */
+    padding: 1.25em; 
     margin: 1.25em;
 }
-
-/* Style pour les éléments de la section CV */
 .cv p {
-    margin-bottom: 0.625em; /* Converti en em */
+    margin-bottom: 0.625em; 
 }
-
 .title {
-    font-size: 2em; /* Converti en em */
-    margin-bottom: 0.313em; /* Converti en em */
+    font-size: 2em; 
+    margin-bottom: 0.313em; 
     text-align: left;
 }
-
 .sous-title {
-    font-size: 1.563em; /* Converti en em */
-    margin-left: 0.625em; /* Converti en em */
-    margin-bottom: 0.313em; /* Converti en em */
+    font-size: 1.563em; 
+    margin-left: 0.625em; 
+    margin-bottom: 0.313em; 
     text-align: left;
 }
-
 .text {
-    font-size: 1.125em; /* Converti en em */
-    margin-bottom: 0.313em; /* Converti en em */
+    font-size: 1.125em; 
+    margin-bottom: 0.313em; 
     text-align: left;
 }
