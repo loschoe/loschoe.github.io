@@ -34,6 +34,6 @@ Ouvrez le fichier index.html dans votre navigateur web préféré.
 Explorez les différentes sections du site pour découvrir mon portfolio, mes projets et mon blog.
 Auteur
 Ou 
-Rendez-vous directement sur le web en tapant : https://loschoe.github.io/
+Rendez-vous directement sur le web en cliquant : https://loschoe.github.io/
 
 signé : *loschoe*
