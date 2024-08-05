@@ -3,7 +3,7 @@ Ceci est mon premier site web, créé dans le cadre de mon apprentissage du dév
 J'ajoute également des boutons complémentaires qui regroupent d'autres pages web pour vous faire découvrir mes projets. 
 
 ## Fonctionnalités : 
-#### Page d'accueil: La page d'accueil présente mes centres d'intérêts, mes réseaux aisni que le menu de navigation complet.
+#### Page d'accueil: La page d'accueil présente mes centres d'intérêts, mes réseaux ainsi que le menu de navigation complet.
 #### Menu de Navigation: Il y a justement une barre de navigation en haut de la page qui permet de naviguer facilement entre les différentes pages secondaires du site.
 #### Sections: Le site comprend plusieurs sections : 
 - ##### Présentation : Mon CV en gros
