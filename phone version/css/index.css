@@ -61,7 +61,6 @@ header.header img {
 section.top-page {
     background: url('../images/background.jpeg');
     background-size: cover;
-    height: 40vh;
     padding: 25px;
 }
 
@@ -191,7 +190,7 @@ strong {
     content: "";
     position: absolute;
     background-color: #ff8000;
-    width: 600px;
+    width: 100%;
     height: 7px;
     bottom: -10px;
     vertical-align: top;
