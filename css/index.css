@@ -162,11 +162,23 @@ strong {
     margin-left: 30px; 
     line-height: 1;
 }
+/*Premier trait vert (pour .section-title)*/
 .section-title::before {
     content: "";
     position: absolute;
     background-color: #ff8000;
     width: 600px;
+    height: 7px;
+    bottom: -10px;
+    vertical-align: top;
+}
+
+/*Deuxième trait vert*/
+.second-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ff8000;
+    width: 230px;
     height: 7px;
     bottom: -10px;
     vertical-align: top;

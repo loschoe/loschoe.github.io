@@ -1,124 +1,175 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*Style de base pour le corps :*/
 body {
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-    margin-left: 20px; 
-    margin-right: 20px; 
-    margin-bottom: 50px; 
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-left: 20px; 
+  margin-right: 20px; 
+  margin-bottom: 50px; 
 }
 
 /*Style pour la section article :*/
 .article {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
 }
 h1 {
-    margin-bottom: 30px; 
-    font-family: Impact;
-    color: red;
+  margin-bottom: 30px; 
+  font-family: Impact;
+  color: red;
 }
 p.introduction {
-    font-size: 25px; 
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    text-align: justify;
+  font-size: 1.6rem; /* Utilisation de rem pour une meilleure gestion de la taille du texte */
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: justify;
 }
 p.article {
-    font-size: 140%; 
-    font-family: 'Segoe UI';
-    margin-right: 8%;
+  font-size: 1.4rem; /* Ajustement de la taille */
+  font-family: 'Segoe UI';
+  margin-right: 8%;
 }
 p.conclusion {
-    font-size: 22px; 
-    font-family: 'Times New Roman', serif;
-    font-style: italic;
-    text-align: justify;
-    margin-top: 30px; 
-    margin-bottom: 40px;
+  font-size: 1.5rem; /* Réduction de l'agrandissement */
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  text-align: justify;
+  margin-top: 30px; 
+  margin-bottom: 40px;
 }
 h1.big-title {
-    color: #f0C300;
-    margin-top: 20px;
-    margin-left: 2%;
+  color: #f0C300;
+  margin-top: 20px;
+  margin-left: 2%;
 }
 img {
-    max-width: 70%;
-    height: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 65%;
+  height: auto;
 }
+
 img.article {
-    width: 70%;
-    margin-top: 2%;
-    margin-bottom: 4%;
+  margin-top: 2%;
+  margin-bottom: 4%;
 }
 .end {
-    padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 12px 8px 16px;
-    gap: 8px;
-    height: 40px;
-    width: 128px;
-    border: none;
-    background: #056bfa27;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-left: 5%;
-    margin-bottom: 3%;
-  }
-  
-  .lable {
-    margin-top: 1px;
-    font-size: 19px;
-    line-height: 22px;
-    color: #056DFA;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-  }
-  
-  .button:hover {
-    background: #056bfa49;
-  }
-  
-  .button:hover .svg-icon {
-    animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px 8px 16px;
+  gap: 8px;
+  height: 40px;
+  width: 128px;
+  border: none;
+  background: #056bfa27;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.lable {
+  margin-top: 1px;
+  font-size: 1.2rem;
+  line-height: 22px;
+  color: #056DFA;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: #056bfa49;
+}
+
+.button:hover .svg-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
       transform: rotate(0deg);
-    }
-  
-    25% {
+  }
+  25% {
       transform: rotate(-8deg);
-    }
-  
-    50% {
-      transform: rotate(0deg);
-    }
-  
-    75% {
-      transform: rotate(8deg);
-    }
-  
-    100% {
-      transform: rotate(0deg);
-    }
   }
+  50% {
+      transform: rotate(0deg);
+  }
+  75% {
+      transform: rotate(8deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
 
 .butn {
-    
-    text-decoration: none;
-    color: inherit; /* This will ensure the link has the same color as the surrounding text */
+  text-decoration: none;
+  color: inherit;
+}
+
+/* RESPONSIVE STYLES */
+
+/* Tablettes : écran jusqu'à 768px */
+@media (max-width: 768px) {
+  body {
+      margin-left: 10px; 
+      margin-right: 10px;
+  }
+  .article {
+      margin: 10px;
+      padding: 15px;
+  }
+  h1 {
+      font-size: 1.4rem;
+  }
+  p.introduction, p.article, p.conclusion {
+      font-size: 1.3rem; /* Limiter l'agrandissement sur tablettes */
+  }
+  img.article {
+      width: 100%; /* Image prend toute la largeur sur les tablettes */
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .button {
+      width: 100%; /* Bouton prend toute la largeur sur les petits écrans */
+      padding: 10px;
+  }
+}
+
+/* Mobiles : écran jusqu'à 480px */
+@media (max-width: 480px) {
+  body {
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  .article {
+      margin: 5px;
+      padding: 10px;
+  }
+  h1 {
+      font-size: 1.2rem; /* Réduction du titre sur mobile */
+  }
+  p.introduction, p.article, p.conclusion {
+      font-size: 1.2rem; /* Texte plus petit pour les petits écrans */
+  }
+  img.article {
+      width: 100%; /* Image prend toute la largeur sur les téléphones */
+  }
+  .button {
+      width: 100%;
+      padding: 12px;
+  }
 }
