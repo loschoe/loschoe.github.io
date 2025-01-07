@@ -13,14 +13,7 @@ body {
     color: #333;
     font-size: 16px;
 }
-.souligné {
-    text-decoration: underline;
-}
-.big-title1 {
-    font-size: 3em; 
-    margin-bottom: 1.25em; 
-    text-align: center;
-}
+
 .scroll-down {
     color: #fff;
     text-decoration: none;

@@ -190,7 +190,7 @@ strong {
     content: "";
     position: absolute;
     background-color: #ff8000;
-    width: 100%;
+    width: 340px;
     height: 7px;
     bottom: -10px;
     vertical-align: top;
@@ -260,7 +260,7 @@ strong {
 
 @media (max-width: 768px) {
     .button {
-        width: 25%; /* Ajustez la largeur pour les petits écrans */
+        width: 25%;
         margin: 10px auto;
     }
 }
@@ -302,7 +302,7 @@ footer {
 
     nav.nav li a {
         color: white;
-        margin-right: 20px; /* Ajustez cette valeur selon vos besoins */
+        margin-right: 20px;
         margin-bottom: 20px;
         font-size: 30px;
     }
