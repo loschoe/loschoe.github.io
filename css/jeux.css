@@ -46,7 +46,8 @@ section.game h2 {
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 1em;
-    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 p {
     margin-right: 4%;
@@ -61,6 +62,31 @@ section.game img {
     max-height: 315px; 
     border-radius: 8px; 
     box-shadow: 7px 11px 30px 10px rgba(57, 57, 57, 0.83); 
+}
+
+/*Les boutons :*/
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button i {
+    margin-right: 8px;
 }
 
 /*Le Footer :*/
