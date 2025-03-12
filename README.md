@@ -21,7 +21,7 @@ C'est pour cette raison que j'utilise GitHub, pour que ce soit OpenSource
 ###### JavaScript 
 
 ## Temps passé sur le projet : 
-###### 20h
+###### 24h
 ## Détails : 
 ###### 3h sur la page principale 
 ###### 5h sur la page publication + Archives 
